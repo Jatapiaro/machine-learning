@@ -1,0 +1,11 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: python.dockerfile
+    volumes:
+      - ./src/python:/usr/src/app
+    restart: always
+    hostname: spydocker-localhost.dev.com
+    ports:
+      - 22:22
