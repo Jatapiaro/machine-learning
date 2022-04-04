@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['src/python/data_importer/data_importer.py', 'src/python/remote-machine.json']
+recent_files = ['src/python/data_importer/data_importer.py', 'src/python/remote-machine.json', 'docker-compose.yml']
 
 [main]
 version = 0.2.0
