@@ -2,6 +2,7 @@ FROM python:slim-buster
 
 WORKDIR /usr/src/app
 COPY src/python/requirements.txt /usr/src/app/
+COPY datasets /usr/datasets
 
 # See https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7
 RUN apt-get update \

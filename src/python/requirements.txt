@@ -1,1 +1,1 @@
-spyder-kernels
+# Required Modulesmatplotlibnumpypandas# Spyderspyder-kernels
