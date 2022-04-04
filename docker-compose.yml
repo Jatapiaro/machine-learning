@@ -7,11 +7,4 @@ services:
       - ./src/python:/usr/src/app
       - ./datasets:/usr/datasets
     restart: always
-    hostname: spydocker-localhost.dev.com
-    ports:
-      - 22:22
-      - 40337:40337 # shell_port
-      - 39475:39475 # iopub_port
-      - 37623:37623 # stdin_port
-      - 34495:34495 # control_port
-      - 55223:55223 # hb_port
+    entrypoint: ["tail", "-f", "/dev/null"]

@@ -1,0 +1,5 @@
+# Required Modules
+matplotlib
+numpy
+pandas
+scikit-learn
